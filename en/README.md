@@ -1,1 +1,1 @@
-Please Visit [Chinese Version](zh-hans/)
+Please Visit [Chinese Version](../zh-hans/)
