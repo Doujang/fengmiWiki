@@ -2,7 +2,8 @@
 
 ## 简介
 
-> 你好，尊敬的开发者，欢迎你的到来，希望本篇文档能够对你有所帮助；如果文档内容不当，或错别之处，您可以：提交 [issues](https://github.com/dingdayu/fengmiWiki/issues) 或 [PR](https://github.com/dingdayu/fengmiWiki/pulls) 。
+> 你好，尊敬的开发者，欢迎你的到来，希望本篇文档能够对你有所帮助；
+> 如果文档内容不当，或错别之处，您可以：提交 [issues](https://github.com/dingdayu/fengmiWiki/issues) 或 [PR](https://github.com/dingdayu/fengmiWiki/pulls) 。
 
 风迷，为暴风TV面向普通用户的产品平台，涉及：`轮播`，`视频通话`,`小悦助手` 等产品线，为暴风TV内部核心业务平台。
 
