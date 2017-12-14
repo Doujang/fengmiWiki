@@ -1,0 +1,78 @@
+{
+    "title" : "风迷开放文档",
+    "author" : "dingdayu <614422099@qq.com>",
+    "description" : "风迷官网开放文档",
+    "language": "zh-hans",
+    "description": "小悦手机助手/视频通话 相关新增接口文档",
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "links": {
+        "sidebar": {
+            "Wiki3": "http://www.fengmi.tv"
+        },
+        "gitbook": true
+    },
+    "plugins": [
+        "theme-api",
+        "ga",
+        "prism",
+        "latex-codecogs",
+        "expand-active-chapter",
+        "editlink",
+        "github",
+        "back-to-top-button",
+        "expandable-chapters",
+        "tbfed-pagefooter",
+        "splitter","sectionx","multipart",
+        "disqus",
+        "sitemap",
+        "-lunr", "-search", "search-plus",
+        "image-captions","anchors","book-summary-scroll-position-saver","atoc","anchor-navigation" 
+    ],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-21269754-6"
+        },
+        "disqus": {
+            "shortName": "fengmiwiki"
+        },
+        "editlink": {
+            "base": "https://github.com/dingdayu/fengmiWiki/edit/master/",
+            "label": "Edit",
+            "multilingual": true
+        },
+        "github": {
+            "url": "https://github.com/dingdayu/fengmiWiki"
+        },
+        "theme-api": {
+            "languages": [
+                {
+                    "lang": "json",
+                    "name": "Json",
+                    "default": true
+                },
+                {
+                    "lang": "xml",
+                    "name": "XML"
+                }
+            ]
+        },
+        "tbfed-pagefooter": {
+             "copyright":"copyright @ fengmi.tv",
+             "modify_label": "该文件最后修订时间：",
+             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "sitemap": {
+            "hostname": "https://dingdayu.gitbooks.io/fengmiwiki/"
+        }
+    },
+    "pdf": {
+        "headerTemplate": "copyright @ fengmi.tv  _TITLE_",
+        "footerTemplate": "_PAGENUM_, _TITLE_, _AUTHOR_ and"
+    }
+}
