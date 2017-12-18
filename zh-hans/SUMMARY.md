@@ -8,8 +8,8 @@
 
 ## API文档
 
-* [通用参数](must.md)
-* [API列表](list.md)
+* [通用参数](api/must.md)
+* [API列表](api/README.md)
     - [获取所有预设标签](api/get_tags.md)
     - [获取轮播信息](api/get_carousel_info.md)
     - [获取视频上传链接](api/get_upload_url.md)
