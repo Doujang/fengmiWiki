@@ -14,7 +14,7 @@
     - [获取轮播信息](api/get_carousel_info.md)
     - [获取视频上传链接](api/get_upload_url.md)
     - [获取视频信息](api/get_video_info.md)
-* [全局返回码](code.md)
+* [全局返回码](api/code.md)
 
 
 ## 其他
