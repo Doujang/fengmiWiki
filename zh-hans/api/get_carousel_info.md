@@ -59,9 +59,9 @@
     "code":200,
     "msg":"success",
     "data":{
-        "subNum":2,
-        "videoNum":2,
-        "playNum":2,
+        "sub_num":2,
+        "video_num":2,
+        "play_num":2,
         "status":"normal"
     }
 }
