@@ -38,6 +38,9 @@ md.update(tmpStr.getBytes());
 String signature = new java.math.BigInteger(1, md.digest()).toString(16);
 ```
 
+测试代码：http://www.dooccn.com/java1.7/#id/37c3d51d851f1150993e79741eca50b6
+
+
 Python示例
 
 ```
@@ -50,3 +53,17 @@ m2 = hashlib.md5()
 m2.update(tmpStr.encode("utf-8"))   
 signature = m2.hexdigest()
 ```
+
+Golang示例
+
+```
+postData = append(postData, APP_KEY)
+tmpStr = strings.Join(postData, "")
+sort.Strings(postData)
+tmpStr := strings.Join(postData, "")
+h := md5.New()
+io.WriteString(h, tmpStr)
+signature := fmt.Sprintf("%x", h.Sum(nil))
+```
+
+测试代码：http://www.dooccn.com/java1.7/#id/37c3d51d851f1150993e79741eca50b6
