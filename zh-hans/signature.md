@@ -18,6 +18,8 @@ $tmpStr = implode("", $tmpArr);
 $signature = md5($tmpStr);
 ```
 
+测试代码：http://www.dooccn.com/php7/#id/9b897172b9f0c1d2f9e9ec0cb85c3803
+
 JAVA示例：
 
 ```
@@ -54,6 +56,8 @@ m2.update(tmpStr.encode("utf-8"))
 signature = m2.hexdigest()
 ```
 
+测试代码：http://www.dooccn.com/python3/#id/697ad3b857e08e2dd315fd496ceeaf9e
+
 Golang示例
 
 ```
@@ -66,4 +70,4 @@ io.WriteString(h, tmpStr)
 signature := fmt.Sprintf("%x", h.Sum(nil))
 ```
 
-测试代码：http://www.dooccn.com/java1.7/#id/37c3d51d851f1150993e79741eca50b6
+测试代码：http://www.dooccn.com/go/#id/7de60ea92352c9bc172c6aada4e336ac
