@@ -12,6 +12,8 @@
 PHP示例：
 
 ```
+// ……省略部分代码
+
 $tmpArr = array_merge($_POST, [APP_KEY]); // 所有请求参数 + APP_KEY
 sort($tmpArr, SORT_STRING); // 作为字符串从低到高排列
 $tmpStr = implode("", $tmpArr);
@@ -23,6 +25,8 @@ $signature = md5($tmpStr);
 JAVA示例：
 
 ```
+// ……省略部分代码
+
 // 补充 APP_KEY
 string[] tmpArr = postData.add(APP_KEY);
 // 排序
@@ -48,6 +52,8 @@ Python示例
 ```
 import hashlib 
 
+// ……省略部分代码
+
 postData.append(APP_KEY);
 postData.sort();
 tmpStr = "".join(postData)
@@ -61,6 +67,8 @@ signature = m2.hexdigest()
 Golang示例
 
 ```
+// ……省略部分代码
+
 postData = append(postData, APP_KEY)
 tmpStr = strings.Join(postData, "")
 sort.Strings(postData)
