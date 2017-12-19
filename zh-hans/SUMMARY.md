@@ -5,6 +5,7 @@
 * [介绍](README.md)
 * [接入指引](guide.md)
 * [用户授权（登陆按钮）](authorization.md)
+* [请求签名](signature.md)
 
 ## API文档
 
