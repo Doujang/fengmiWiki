@@ -3,11 +3,13 @@
 ### 接入流程
 
 QQ登录OAuth2.0总体处理流程如下：
+```
 Step1：申请接入，获取`appid`和`apikey`；
 Step2：放置登录按钮；
 Step3：通过用户登录验证和授权，获取`access_token`；
 Step4：通过`access_token`获取用户的`openid`和用户资料；
 Step5：调用`OpenAPI`，来请求访问或修改用户授权的资源。
+```
 
 ### 环境说明
 
