@@ -61,9 +61,9 @@
     "code":200,
     "msg":"success",
     "data":{
-        "shareUrl":"http://www.fengmi.tv/wap/video?video_id=971",
+        "share_url":"http://www.fengmi.tv/wap/video?video_id=971",
         "status":"success",
-        "playNum":0
+        "play_num":0
     }
 }
 ```
