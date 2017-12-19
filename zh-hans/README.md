@@ -12,7 +12,7 @@
 ```
 合作方通过商务获得:`APP_ID`,`APP_KEY`：
 1) 跳转到风迷官网登陆授权，获得授权`code`,
-2) 然后对话用户授权凭证`access_toke`
+2) 通过`code`换取用户授权凭证`access_toke`
 3) 通过`access_token`获取用户信息
 4) 通过`access_toke`和用户`openid`进行相关`API`操作
 ```
