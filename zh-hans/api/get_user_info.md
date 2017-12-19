@@ -28,9 +28,9 @@
 
 | 字段名 | 变量名 | 类型 | 是否必须 | 示例 |
 | ----- | -------- | -------- | ---- | ----------------- |
-| 视频分享网页链接 | `share_url` | `string` | 否 | `1` |
-| 视频状态 | `status` | `string` | 否 | 具体状态见下表 |
-| 视频播放量 | `play_num` | `int` | 否 | `无` |
+| 用户标识符 | `openid` | `string` | 是 | `123423sdetewr` |
+| 用户昵称 | `nickname` | `string` | 否 | `dingdayu` |
+| 用户头像 | `avatar` | `string` | 是 | `` |
 
 `status` 对应视频状态
 
