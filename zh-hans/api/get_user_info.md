@@ -32,17 +32,6 @@
 | 用户昵称 | `nickname` | `string` | 否 | `dingdayu` |
 | 用户头像 | `avatar` | `string` | 是 | `` |
 
-`status` 对应视频状态
-
-| `status` | 对应状态 |
-| ----- | -------- |
-| `deleted` | 视频已删除 |
-| `disabled` | 被屏蔽（审核不通过） |
-| `transcoding` | 视频转码中 |
-| `error` | 视频转码失败 |
-| `success` | 视频转码成功，即正常视频 |
-| `published` | 视频发布到轮播 |
-
 状态码对应信息
 
 ```
