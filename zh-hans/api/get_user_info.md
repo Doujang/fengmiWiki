@@ -5,7 +5,7 @@
 ### 请求 URL `GET`
 
 ```
-/oauth2/video/info
+/oauth2/user/info
 ```
 
 ### 请求 参数 格式
