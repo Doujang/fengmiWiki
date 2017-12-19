@@ -17,7 +17,7 @@
 
 | 暴风影音FID | `fileid`        | `string`   | 视频唯一标识符   | `19BBDCDA71DFD4A28F02085439C57892` |
 | 封面URl    | `cover`      | `string`   | 否      | `http://img1tuzi.b0.upaiyun.com/../78626080.jpg` |
-| 视频标签     | `tags`       | `array`    | 是      | `最爱`                                     |
+| 视频标签     | `tags`       | `array`    | 是      | `最爱`                   |
 | 是否添加到轮播  | `iscarousel` | `int`      | 否(默认0) | `1` or `0`           |
 
 
