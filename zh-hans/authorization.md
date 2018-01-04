@@ -71,10 +71,14 @@ https://www.fengmi.tv/oauth2/token?
 
 ```
 {
-  "access_token":"a14afef0f66fcffce3e0fcd2e34f6ff4",
-  "expires_in":7200,
-  "refresh_token":"5d633d136b6d56a41829b73a424803ec",
-  "openid":"1221"
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "refresh_token": "de436025aa4c0922b9c72cc382ec49e9",
+    "expires_in": 7200,
+    "access_token": "e447028c1356c3828628768daac2fffe",
+    "openid": "6b8b33cab0875c4091e036560d147a6a"
+  }
 }
 ```
 
