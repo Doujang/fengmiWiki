@@ -103,24 +103,29 @@ https://www.fengmi.tv/oauth2/token/refresh
 | refresh_token | 必选参数，刷新令牌         | 是    |
 | signature     | 签文，请查看 [签名] 章节    | 是    |
 
-注意：此请求必须是 HTTP POST 方式，refresh_token 刷新`access_token`时，旧的`access_token`就会失效; `refresh_token` 会在用户授权超过一年，或又重新授权时无法使用。
+注意：此请求必须是 HTTP POST 方式，refresh_token 刷新`access_token`时，旧的`access_token`就会失效; `refresh_token` 会在自用户点击授权起超过一年，或又重新授权时无法使用。
 
 例如：
 
 ```
 https://www.fengmi.tv/oauth2/token/refresh?
-  client_id=0b5405e19c58e4cc21fc11a4d50aae64&
+  app_id=0b5405e19c58e4cc21fc11a4d50aae64&
   signature=edfc4e395ef93375&
   refresh_token=5d633d136b6d56a41829b73a424803ec
 ```
 
 ```
 {
-  "access_token":"a14afef0f66fcffce3e0fcd2e34f6ff4",
-  "expires_in":7200,
-  "refresh_token":"5d633d136b6d56a41829b73a424803ec",
-  "openid":"1221"
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "refresh_token": "de436025aa4c0922b9c72cc382ec49e9",
+    "expires_in": 7200,
+    "access_token": "e447028c1356c3828628768daac2fffe",
+    "openid": "6b8b33cab0875c4091e036560d147a6a"
+  }
 }
+
 ```
 
 ### 链接
